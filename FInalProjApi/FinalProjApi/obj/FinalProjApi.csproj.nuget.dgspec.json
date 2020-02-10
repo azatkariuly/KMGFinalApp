@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/FinalProjApi/FinalProjApi.csproj": {}
+  },
+  "projects": {
+    "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/FinalProjApi/FinalProjApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/FinalProjApi/FinalProjApi.csproj",
+        "projectName": "FinalProjApi",
+        "projectPath": "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/FinalProjApi/FinalProjApi.csproj",
+        "packagesPath": "/Users/azatkariuly/.nuget/packages/",
+        "outputPath": "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/FinalProjApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/azatkariuly/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/Infrastructure.Data/Infrastructure.Data.csproj": {
+                "projectPath": "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/Infrastructure.Data/Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/Infrastructure.Data/Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/Infrastructure.Data/Infrastructure.Data.csproj",
+        "projectName": "Infrastructure.Data",
+        "projectPath": "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/Infrastructure.Data/Infrastructure.Data.csproj",
+        "packagesPath": "/Users/azatkariuly/.nuget/packages/",
+        "outputPath": "/Users/azatkariuly/RiderProjects/FinalApp/FinalProjApi/Infrastructure.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/azatkariuly/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

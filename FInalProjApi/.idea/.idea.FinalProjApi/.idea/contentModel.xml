@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_FinalProjApi.-143671754.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="FinalProjApi" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config" t="Include" />
+        <e p="Controllers" t="Include" />
+        <e p="FinalProjApi.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="FinalProjApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="FinalProjApi.sln" t="IncludeFlat" />
+      <e p="Infrastructure" t="Include" />
+      <e p="Infrastructure.Data" t="IncludeRecursive">
+        <e p="AutoMapping.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HistoriesController.cs" t="Include" />
+          <e p="ProblemsController.cs" t="Include" />
+          <e p="StatusesController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
+        </e>
+        <e p="Dtos" t="Include">
+          <e p="HistoryDto.cs" t="Include" />
+          <e p="ProblemDto.cs" t="Include" />
+          <e p="StatusDto.cs" t="Include" />
+          <e p="UserDto.cs" t="Include" />
+        </e>
+        <e p="Infrastructure.Data.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20200131100715_InitialCreate.cs" t="Include" />
+          <e p="20200131100715_InitialCreate.Designer.cs" t="Include" />
+          <e p="20200131102354_InitialCreateUpdate.cs" t="Include" />
+          <e p="20200131102354_InitialCreateUpdate.Designer.cs" t="Include" />
+          <e p="20200131204000_HistoryTabAdd.cs" t="Include" />
+          <e p="20200131204000_HistoryTabAdd.Designer.cs" t="Include" />
+          <e p="20200205111102_tableupdatenull.cs" t="Include" />
+          <e p="20200205111102_tableupdatenull.Designer.cs" t="Include" />
+          <e p="20200205120936_relationupdate.cs" t="Include" />
+          <e p="20200205120936_relationupdate.Designer.cs" t="Include" />
+          <e p="20200205122151_relationannotationupdate.cs" t="Include" />
+          <e p="20200205122151_relationannotationupdate.Designer.cs" t="Include" />
+          <e p="20200207091229_dateToString.cs" t="Include" />
+          <e p="20200207091229_dateToString.Designer.cs" t="Include" />
+          <e p="MyContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="History.cs" t="Include" />
+          <e p="Problem.cs" t="Include" />
+          <e p="Status.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="MyContext.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Infrastructure.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repo" t="Include">
+          <e p="HistoryRepo.cs" t="Include" />
+          <e p="IRepo.cs" t="Include" />
+          <e p="ProblemRepo.cs" t="Include" />
+          <e p="StatusRepo.cs" t="Include" />
+          <e p="UserRepo.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="HistoryService.cs" t="Include" />
+          <e p="IService.cs" t="Include" />
+          <e p="ProblemService.cs" t="Include" />
+          <e p="StatusService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

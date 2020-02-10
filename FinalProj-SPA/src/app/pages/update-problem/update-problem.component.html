@@ -1,0 +1,21 @@
+<p>Name</p>
+<input value="event">
+
+<p>Description</p>
+<input [(ngModel)]="Description" value="{{p.description}}">
+
+<p>Start Date</p>
+<input [(ngModel)]="StartDate" value="{{p.startDate}}">
+
+<p>End Date</p>
+<input [(ngModel)]="EndDate" value="{{p.endDate}}">
+
+<p>User Id</p>
+<input [(ngModel)]="UserId" value="{{p.userId}}">
+
+<p>Status</p>
+<input [(ngModel)]="StatusId" value="{{p.statusId}}">
+
+<br>
+<br>
+<button (click)="receiveMessage($event)">Update</button>
